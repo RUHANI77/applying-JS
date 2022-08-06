@@ -5,14 +5,15 @@ greater than 10 and less than 50.
 */
 function oddSum(arr) {
     let sum = 0;
-    for (let i = 0; i < arr.length; i++){
-        if (arr[i] % 2 != 0) {
-            sum += arr[i];
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i]>10 && arr[i]<50) {
+            if (arr[i] % 2 != 0) {
+                sum += arr[i];
+            }
         }
         else {
             continue;
         }
-
     }
     return sum;
 }
