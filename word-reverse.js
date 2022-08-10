@@ -1,7 +1,7 @@
 function reverseWords(str) {
     const words = str.split(' ');
     const result = [];
-    ['I', 'am', 'a', 'good', 'Boy']
+   // ['I', 'am', 'a', 'good', 'Boy']
     
     for(let i = words.length - 1; i >= 0; i--)
     {
